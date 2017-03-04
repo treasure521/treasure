@@ -1,0 +1,71 @@
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,a,p,textarea{
+    margin:0;
+    padding:0;
+    font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","STHeitiSC-Light","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+p{
+	font-family: "微软雅黑";
+}
+h1,h2,h3,h4{
+	font-weight: normal;
+}
+ol,ul,li{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    display: block;
+}
+img{
+    border:none;
+    vertical-align: middle;
+}
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*清除浮动*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+/*公共部分*/
+.container {
+    /*版心 提取 */
+    width: 1163px;
+    margin: 0 auto;
+    border-bottom:1px solid #DBDBDB;
+}
+
+.pull-left {
+    float: left
+}
+
+.pull-right {
+    float: right
+}
+
+.text-left {
+    text-align: left
+}
+
+.text-center {
+    text-align: center
+}
+
+.text-right {
+    text-align: right
+}
+
+.hide {
+    display: none
+}
+a:focus{
+	outline: none;
+}
+
