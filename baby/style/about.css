@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+.about{ width:1100px; margin:0 auto; padding:0px 0px;}
+
+
+.title1{ width:1100px; float:left; border-bottom:solid 1px #b5b6b6; height:30px; padding-bottom:5px;}
+.title1 .title1L{ float:left; border-bottom:solid 4px #fc666c; position:relative; margin-top:2px;height:26px;padding:0px 5px 5px 5px;}
+.title1 .title1L span{ font-size:18px; font-weight:500;color:#333; font-family:"微软雅黑";}
+.title1 .title1L em{ color:#fc666c; font-size:10px; font-style:normal;padding:0px 5px;}
+.title1 .title1L label{ font-size:12px; color:#595757; text-transform:uppercase;}
+.title1 .title1R{ float:right; height:30px; line-height:30px;}
+.title1 .title1R a{ color:#fc686e;}
+
+.gsjjTxt{ width:1100px; float:left; padding:20px 0px;}
+
+.team{ width:1100px; margin:0 auto; padding:0px 0px;}
+.team .teamBox{ width:1100px; float:left;}
+.team .teamBox ul{ width:1140px;  float:left; margin-left:-40px;}
+.team .teamBox ul li{ width:530px; display:block; height:220px; overflow:hidden;float:left; margin:30px 0px 10px 40px;}
+.teamImg{ width:200px; height:220px; float:left;}
+.teamTxt{ width:320px; float:right;}
+.teamTxt h2{ font-size:20px; color:#fc676d; font-family:"微软雅黑"; height:18px; line-height:18px;}
+.teamTxt span{ width:320px; display:block; float:left; line-height:24px;}
+
+
+
+/*------新闻中心-------*/
+.pageTopBg{ width:100%; border-bottom:solid 1px #e2e2e2; padding:10px 0px; height:25px; line-height:25px;}
+.pageTop{ width:1100px; height:25px; margin:0 auto; padding:0px 0px;line-height:25px; font-size:14px;font-family:"微软雅黑"; }
+.pageTop a{ color:#fc676d;}
+.pageTop img{ width:14px; height:14px;vertical-align:middle; margin-top:-4px; padding-right:5px;}
+
+
+
+.news{ width:1100px;}
+
+.newsBox{ width:1100px; height:auto; border-bottom:1px solid #efefef; padding:0 0 22px 0; margin:0 0 22px 0;}
+.newsBox_img{ width:207px; height:171px; float:left; display:block; margin:0 22px 0 0}
+.newsBox_right{ width:868px; float:right; height:auto}
+.newsBox_dh{ height:36px; font:14px/36px "微软雅黑"; overflow:hidden}
+.newsBox_dh a{color:#fc676d}
+.newsBox_dh span{ float:right; font-size:12px; color:#636363}
+.newsBox_more{ height:25px; line-height:25px; font-family:"微软雅黑";}
+.newsBox_more a{ color:#444444;}
+.newsBox_txt{ height:75px; line-height:25px; color:#444444; overflow:hidden; margin:8px 0 10px 0}

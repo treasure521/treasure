@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>小儿推拿</title>
+<link rel="stylesheet" type="text/css"  href="style/common.css"/>
+<link rel="stylesheet" type="text/css"  href="style/index.css"/>
+<script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="js/slide.js"></script>
+
+<script>
+$(function(){
+	
+		
+	function goto(){
+		var inx=$(".navlist li").index(this);
+		var add=$("#press").find("div.classbox").eq(inx).offset().top;
+		$("html,body").animate({scrollTop:add});
+		$(".navlist li").removeClass("act");
+		$(this).addClass("act");
+		return false;
+		}
+	
+	$(".navlist li").click(goto);
+	$(".navlist li").hover(
+	function(){
+		$(this).find(".lisword").show();
+		},
+	function(){
+		$(this).find(".lisword").hide();
+	}
+	);
+	$(window).scroll(function(){
+		 var now=$(document).scrollTop();		  
+		 for(i=0;i<4;i++){
+		  var top=[0,1,2,3];
+		  top[i]= $("#press").find("div.classbox").eq(i).position().top;
+		  var ads=Math.abs(now-top[i]);
+		  if(ads<=300){
+			 $(".navlist li").removeClass("act");
+		     $(".navlist").find("li").eq(i).addClass("act");
+			  }
+			 }
+		  
+		  /*
+		  var add=$("#press").find("div").eq(inx).offset().top;
+		  var inx=$(".navlist li").index(this);*/
+		});
+	});
+</script>
+
+</head>
+
+<body>
+  <div class="topBg">
+    <div class="top">
+     <div class="head">
+      <div class="logo"><img src="images/logo.png" /></div>
+      <div class="menu">
+        <ul id="nav">
+          <li class="mainlevel hover" id="mainlevel_01" style="width:80px"><a href="index.html">首页</a></li>
+          <li class="mainlevel" id="mainlevel_01" style="width:80px"><a href="about.html" class="hover">公司简介</a></li>
+          <li class="mainlevel" id="mainlevel_01"><a href="news.html">新闻中心</a>
+            <div class="ulnav">
+              <ul>
+                <li><a href="news.html">公司新闻</a></li>
+               <li><a href="news.html">行业动条</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="mainlevel" id="mainlevel_01"><a href="tnpx.html">小儿推拿培训</a>
+             <div class="ulnav">
+              <ul>
+                <li><a href="tnpx_zyb.html">职业班培训</a></li>
+               <li><a href="tnpx_zyb.html">妈妈班培训</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="mainlevel" id="mainlevel_01"><a href="onlineStudy.html">在线学习</a>
+            <div class="ulnav">
+              <ul>
+                <li><a href="onlineStudyList.html">视频学习</a></li>
+               <li><a href="news.html">在线书籍</a></li>
+              </ul>
+            </div>
+          </li>
+          
+          <li class="mainlevel" id="mainlevel_01" style="width:80px"><a href="#">合作加盟</a></li>
+        </ul>
+      </div>
+      </div>
+    </div>
+     <div class="bg"></div>
+   </div>  
+ 
+ <!---首页banner图  高度为720px----> 
+<div class="indexBanner" style="background:url(images/bannerBg.jpg) top center no-repeat;">
+   <div class="bannerBox">
+     <a  href="#" title="此处放苹果系统下载地址" class="app_ap"></a>
+     <a  href="#" title="此处放苹果系统下载地址" class="app_an"></a>
+     <img src="images/indexBanner.png" />
+   </div>
+</div>
+
+<div class="bannerBot"></div>
+
+<div class="navlist">
+    <ul>
+    <li class="act"><a></a><div class="lisword">在家就能问医生</div></li>
+    <li><a></a><div class="lisword">自我诊断疾病</div></li>
+    <li><a></a><div class="lisword">在家就能学推拿</div></li>
+    <li><a></a><div class="lisword" style="display: none;">面向武汉服务全国</div></li>
+    </ul> 
+    </div>
+
+<div id="press">
+  
+  <div class="case1 classbox" id="a0">
+     <div class="main_item"><img src="images/indexImg01.jpg" width="1100" height="616" alt="主人翁健康app,在线问医生,在家就能问医生"></div>
+  </div>
+  <div class="case2 classbox" id="a1">
+     <div class="main_item"><img src="images/indexImg02.jpg"  width="1100" height="616" alt="主人翁健康app,自我诊断疾病"></div>
+   </div>
+   <div class="case3 classbox" id="a2">
+      <div class="main_item"><img src="images/indexImg03.jpg" width="1100" height="616" alt="主人翁健康app,在家就能学推拿"></div>   
+   </div>
+  <div class="case4 classbox" id="a3">
+     <div class="main_item"><img src="images/indexImg04.jpg" width="1100" height="616" alt="主人翁健康app,面向武汉服务全国"></div>
+   </div>
+  
+  
+
+   <a href="#" class="andr_pic secondtitle" title="下载安卓版主人翁健康" target="_blank"></a>
+   <a href="#" class="andr_pic2 secondtitle" title="下载IOS版主人翁健康" target="_blank"></a>
+  </div>
+  
+  
+
+  
+  
+  
+  <div class="clear"></div>
+  <!----foot----->
+  <div class="footMenuBg marginTop20">
+    <div class="footMenu">
+      <ul>
+        <li>
+           <b>公司简介</b>
+           <a href="#">关于我们</a>
+           <a href="#">发展历程</a>
+           <a href="#">公司荣誉</a>
+           <a href="#">联系我们</a>
+        </li>
+        
+        <li>
+           <b>新闻中心</b>
+           <a href="#">公司新闻</a>
+           <a href="#">行业动态</a>
+        </li>
+        
+        <li>
+           <b>小儿推拿培训</b>
+           <a href="#">职业班培训</a>
+           <a href="#">妈妈班培训</a>
+        </li>
+        
+        <li>
+           <b>在线学习</b>
+           <a href="#">视频学习</a>
+           <a href="#">在线书籍</a>
+        </li>
+               
+         <li>
+           <b>合作加盟</b>
+           <a href="#">企业合作商</a>
+           <a href="#">个人合作商</a>
+        </li>      
+                
+      </ul>
+      
+      <span><img src="images/ewm.jpg" /><br />
+      微信订阅号：zhurenwengjk</span>
+      
+    </div>
+  </div>
+  
+  <div class="footCopyBg">
+    <div class="footCopy">CopyRight © 2014-2017&nbsp;&nbsp;武汉惠林海养生有限公司&nbsp;&nbsp;版权所有 <br />
+鄂ICP:12365211号&nbsp;&nbsp;技术支持：<a href="#">双军科技</a></div>
+  </div>
+  
+  
+  <a href="#" class="andr_pic secondtitle" title="下载安卓主人翁健康"></a>
+  <a href="#" title="下载IOS主人翁健康" target="_blank"></a>
+  
+</body>
+</html>
