@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.min.js"></script>
+    <script>
+        window.onload=function(){
+            new Vue({
+                el:'#box',
+                data:{
+                    msg:'welcome vue',
+                    msg2:'12'
+                    arr:['apple','banana','orange','pear']
+                    json:{a:"apple",b:"banana",c:"pear"}
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+<div id="box">
+    <input type="text" v-model="msg">
+    <input type="text" v-model="msg">
+    <br>
+    {{msg}}
+    <br>
+    {{msg2}}
+    vue里的循环
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.min.js"></script>
+    <script>
+        window.onload=function(){
+            new Vue({
+                el:'#box',
+                data:{
+                    arr:['apple','banana','orange','pear'],
+                    json:{a:"apple",b:"banana",c:"pear"}
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+<div id="box">
+<ul>
+    <li v-for="(value,index) in arr">{{value}}{{index}}</li>
+</ul>
+    <!--循环用v-for="value in arr" 其中value是随便起的  arr是上面的数组-->
+    vue也自带了一个索引{{$index}}
+</div>
+</body>
+</html>

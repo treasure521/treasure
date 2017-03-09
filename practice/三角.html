@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .demo {
+            margin:100px auto;
+            width: 0;
+            height: 0;
+            animation: change 5s infinite;
+            animation-timing-function: linear;
+            border-left:30px solid transparent;
+            border-right:30px solid transparent;
+            border-top:30px solid lightpink;
+        }
+        .demo:hover {
+            webkit-perspective-origin:10% 10%;
+            -webkit-transform: rotate(90deg);
+            -webkit-transition: -webkit-transform 8s linear
+        }
+        .demo1 {
+            margin:100px auto;
+            width: 50px;
+            height: 20px;
+            position: relative;
+            border:1px solid red;
+        }
+        .demo1:hover {
+            -webkit-transform-style: preserve-3d;
+            -webkit-transform: rotateX(90deg);
+            -webkit-transform: rotateZ(45deg);
+            -webkit-transform: rotateY(45deg);
+        }
+        .demo1:after {
+            content: "";
+            position: absolute;
+            left: 51px;
+            top:0;
+            border-top:10px solid transparent;
+            border-left:10px solid orange;
+            border-right:10px solid transparent;
+            border-bottom:10px solid transparent;
+        }
+        @keyframes change {
+            0% {
+                border-left:50px solid transparent;
+                border-right:50px solid transparent;
+                border-top:50px solid pink;
+            }
+            20% {
+                border-left:70px solid transparent;
+                border-right:70px solid transparent;
+                border-top:70px solid hotpink;
+            }
+            40% {
+                border-left:90px solid transparent;
+                border-right:90px solid transparent;
+                border-top:90px solid deeppink;
+            }
+
+        }
+    </style>
+</head>
+<body>
+<!--方法一-->
+<div class="demo">李毅鹏杂技表演</div>
+<!--方法二-->
+<div class="demo1"></div>
+
+<!--动画-->
+<div class="demo2"></div>
+
+
+</body>
+</html>
