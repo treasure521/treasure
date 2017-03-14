@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -76,7 +76,7 @@
             v-on:click="nowIndex=key">删除</button></td>
         </tr>
         <tr class="text-right"  v-show="myData.length!=0">
-            <td colspan="4"><button class="btn btn-sm btn-danger " data-toggle="modal" data-target="#layer" v-on:click="nowIndex==-2">全部删除</button></td>
+            <td colspan="4"><button class="btn btn-sm btn-danger " data-toggle="modal" data-target="#layer" v-on:click="nowIndex=-2">全部删除</button></td>
         </tr>
         <tr v-show="myData.length==0">
             <td colspan="4" class="text-center text-muted">
