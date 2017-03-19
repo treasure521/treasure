@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        #btn{
+            width: 100px;
+            height: 30px;
+            border-radius: 9px;
+            border:none;
+            background:cornflowerblue;
+        }
+        .heart {
+            width: 200px;
+            height: 200px;
+            margin:100px auto;
+            position:relative;
+            display: none;
+        }
+        .left,.right,.bottom{
+            width: 200px;
+            height: 200px;
+            background:red;
+            position:absolute;
+            animation:beat 0.7s infinite;
+        }
+        .left{
+            left:-70px;
+            border-radius: 100px;
+        }
+        .right{
+            right:-94px;
+            border-radius: 100px;
+        }
+        .bottom{
+            bottom:-80px;
+            left:12px;
+        }
+        @keyframes beat {
+            0%{
+                transform: scale(1) rotate(45deg);
+            }
+            50%{
+                transform: scale(1.2) rotate(45deg);
+            }
+            100%{
+                transform: scale(1) rotate(45deg);
+            }
+
+        }
+        .dec {
+            text-align: center;
+            width: 200px;
+            height: 50px;
+            margin:200px auto;
+            display: none;
+            text-shadow: deeppink;
+            font: 700 16px/32px "微软雅黑";
+            -webkit-transition: -webkit-transform 1s linear;
+        }
+        .dec:hover{
+            -webkit-transform: scale(2);
+        }
+
+    </style>
+</head>
+<body>
+<button id="btn">点我有惊喜</button>
+<div class="heart">
+    <span class="left"></span>
+    <span class="right"></span>
+    <span class="bottom"></span>
+</div>
+<div class="dec">一个跳动的心脏</div>
+</body>
+</html>
+<script>
+var btn=document.getElementById("btn");
+var div=document.getElementsByTagName("div");
+btn.addEventListener("click",function(){
+    div[0].style.display="block";
+    div[1].style.display="block";
+})
+</script>
