@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            min-width: 600px; /* 2*sub + extra */
+        }
+        .container {
+            padding-left: 210px;
+            padding-right: 190px;
+        }
+        .container .main {
+            float: left;
+            width: 100%;
+            height: 300px;
+            background-color: rgba(255, 0, 0, .5);
+        }
+        .container .sub {
+            position: relative;
+            left: -210px;
+            float: left;
+            width: 200px;
+            height: 300px;
+            margin-left: -100%;
+            background-color: rgba(0, 255, 0, .5);
+        }
+        .container .extra {
+            position: relative;
+            right: -190px;
+            float: left;
+            width: 180px;
+            height: 300px;
+            margin-left: -180px;
+            background-color: rgba(0, 0, 255, .5);
+        }
+
+
+
+        .main-wrapper {
+            float: left;
+            width: 100%;
+        }
+        .main-wrapper .main {
+            height: 300px;
+            margin-left: 210px;
+            margin-right: 190px;
+            background-color: orangered;
+        }
+         .subb {
+            float: left;
+            width: 200px;
+            height: 300px;
+            margin-left: -100%;
+            background-color: green;
+        }
+         .extraa {
+            float: left;
+            width: 180px;
+            height: 300px;
+            margin-left: -180px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="main"></div>
+    <div class="sub"></div>
+    <div class="extra"></div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<!--淘宝使用的布局-->
+<div class="main-wrapper">
+    <div class="main"></div>
+</div>
+<div class="subb"></div>
+<div class="extraa"></div>
+</body>
+</html>
