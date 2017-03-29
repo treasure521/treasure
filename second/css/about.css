@@ -1,0 +1,91 @@
+body {
+    background: #f3f3f7;
+
+}
+.list {
+    float:left;
+    width: 200px;
+    margin-top:30px;
+    font: 500 16px/50px "微软雅黑";
+}
+.list li {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: #fff;
+    border-left: 4px solid transparent;
+    border-bottom: 1px solid #d9d9d9;
+
+}
+.list .li-hover {
+    width: 100%;
+    border-left: 4px solid red;
+    background: #f3f3f7;
+
+}
+.contentr{
+    float:right;
+    width: 900px;
+    height: 1000px;
+    background:red;
+    background:#fff;
+    margin-top:30px;
+}
+.content {
+    width: 880px;
+    padding: 20px 40px;
+    float: right;
+    background: #fff;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    display: none;
+}
+.content1{
+    display: none;
+}
+.content h3 {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #333;
+}
+.content .first{
+    text-indent: 0px;
+}
+.content p {
+    color: #323232;
+    font: 500 16px/30px "微软雅黑";
+    text-indent: 40px;
+}
+.content strong{
+    color:red;
+}
+.content .per {
+    margin-bottom: 30px;
+
+}
+.per .left{
+    float:left;
+    margin-right:20px;
+    width: 400px;
+}
+.per .right  h3 {
+    font: 500 30px/10px "微软雅黑";
+}
+.per .right h3 span {
+    padding-left: 40px;
+    font-size: 18px;
+    display: inline-block;
+}
+.per .right {
+    float:right;
+    width: 460px;
+}
+.per .right p {
+    color: #555;
+    margin-top:-20px;
+    font: 14px/30px "microsoft yahei";
+}
+.show{
+    display: block;
+}

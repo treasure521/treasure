@@ -1,0 +1,198 @@
+.header{
+    height: 68px;
+    border-bottom:1px solid #DBDBDB;
+}
+.header>.container{
+    border-bottom:none;
+}
+.header>.container>.top-bar>ul{
+    line-height: 68px;
+    text-align: center;
+}
+.header>.container>.top-bar>ul>li{
+    float:left;
+    margin-left:45px;
+    line-height: 68px;
+    text-align: center;
+}
+.header>.container>.top-bar>ul>li>a{
+    color:#525252;
+    font-size:16px;
+    line-height: 68px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.header>.container>.top-bar>ul>li>a:hover{
+    border-bottom:2px solid #685991;
+}
+.header>.container>.top-bar>ul>.active{
+    border-bottom:2px solid #685991;
+}
+.header>.container>.top-bar>ul>li>a span{
+    font-size:12px;
+    font-family: "仿宋";
+}
+/*导航样式*/
+.nav{
+    height: 75px;
+    padding:68px 0 0 0;
+}
+.nav>.container{
+}
+.nav>.container>ul{
+    margin-bottom:34px;
+    overflow: hidden;
+}
+.nav>.container>ul>li{
+    margin-right:20px;
+}
+.nav>.container>ul>li>a {
+    float: left;
+    color: #818181;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.nav>.container>ul>li>i{
+    font-size:10px;
+}
+/*文章部分*/
+.article>.container{
+}
+.article>.container>h3{
+    color:#040404;
+    text-align: center;
+}
+.article>.container>span{
+    color:#4F4F4F;
+    text-align: center;
+    display: block;
+}
+.article>.container>p{
+    text-indent: 2em;
+    color:#4C4C4C;
+    line-height: 30px;
+    font-size:14px;
+    font-family: "微软雅黑";
+    margin:46px 0;
+}
+.article>.container>a{
+    display: block;
+    text-align: center;
+}
+.article>.container>.first{
+    margin-bottom:42px;
+}
+
+
+/*脚注部分*/
+.footer>.container{
+    border:none;
+}
+.footer>.container>ul>li{
+    float:left;
+    border-right:1px solid #797979;
+    height: 170px;
+
+}
+.footer>.container>.more{
+    width: 764px;
+    height: 50px;
+    border:1px solid #9d9d9d;
+    margin:0 auto;
+    margin-top:80px;
+    margin-bottom:80px;
+}
+.footer>.container>.more>a {
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    color:#545454;
+}
+.footer>.container>ul>li {
+
+}
+.footer>.container>ul>.first{
+    padding-right:90px;
+}
+.footer>.container>ul>.second{
+    padding-left:60px;
+    padding-right:60px;
+}
+.footer>.container>ul>.three{
+    padding-left:60px;
+    padding-right:60px;
+}
+.footer>.container>ul>.last{
+    padding-left:30px;
+    border-right:none;
+}
+.footer>.container>ul>li>a{
+    display: block;
+    width: 118px;
+    color:#4E4D4B;
+    font-size:14px;
+    text-align: center;
+}
+.footer>.container>ul>li>a>span{
+    display: block;
+    margin-top:20px;
+}
+.footer>.container>ul>li>p{
+    color:#262522;
+    line-height: 20px;
+}
+.footer>.container>ul>.last>span{
+    display: block;
+    margin-top:115px;
+    color:#262522;
+}
+.telphone{
+    margin-top: 18px;
+}
+.addpad{
+    padding: 0 0 30px 0;
+    overflow: hidden;
+}
+.addpad li{
+    padding-top:18px ;
+    padding-bottom:14px;
+}
+.info .container .tsauto{
+    margin: 60px 0 0 60px;
+    position: relative;
+}
+.odername .swiper-slide{
+    float: left;
+    margin-left: 32px;
+}
+.odername .orange-slide{
+    margin: 0;
+}
+.arrow-left{
+    position: absolute;
+    left: -45px;
+    top: 80px;
+    font-size: 22px;
+    color: #333;
+    cursor: pointer;
+}
+.arrow-right{
+    position: absolute;
+    right: -45px;
+    top: 80px;
+    font-size: 22px;
+    color: #333;
+    cursor: pointer;
+}
+.swiper-parent{
+    width: 1080px;
+    height: 165px;
+}
+.swiper-parent .swiper-slide{
+    width: 245px !important;
+}
+.odername{
+    width: 10000px;
+    overflow: hidden;
+}

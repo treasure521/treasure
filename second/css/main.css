@@ -1,0 +1,215 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background: #f3f3f7;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background:#333333;
+}
+.header .tele {
+    color: #fff;
+    font: 900 13px/40px "微软雅黑";
+    letter-spacing: 2px;
+}
+.tele .number {
+    padding-left:20px;
+    display: inline-block;
+    background:url("../images/head_tel.png") no-repeat left center;
+}
+.login a {
+    float: left;
+    background: #2f96d4;
+    width: 60px;
+    height: 20px;
+    border-radius: 4px;
+    padding: 2px 8px;
+    margin-top: 10px;
+    font: 14px/20px "微软雅黑";
+    text-align: center;
+}
+.login  .second{
+    width: 60px;
+    height: 22px;
+    margin-left:30px;
+    border:1px solid red;
+    background:transparent;
+}
+.nav{
+    background:#fff;
+}
+.innernav{
+    width: 100%;
+}
+.innernav .logo{
+    width: 400px;
+    height: 78px;
+}
+.innernav .logo img {
+    width: 175px;
+    height: 58px;
+    margin-top: 12px;
+}
+.innernav .menu{
+    float:right;
+    /*margin-top:-16px;*/
+
+}
+.innernav .menu li {
+    float: left;
+    width: 110px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+
+}
+.innernav .menu li a {
+    color: #000;
+}
+.innernav .menu li a:hover{
+    color: #ff1f30;
+}
+
+    /*footer*/
+.footer{
+    width: 100%;
+    height: 320px;
+    background:#333;
+    padding:60px 0 30px;
+}
+.footer .top {
+    width: 100%;
+}
+.footer .top .left{
+    width: 700px;
+}
+.top .left .fl{
+    width: 100%;
+    line-height: 42px;
+}
+.top .left .fl span {
+    font: 700 16px/32px "微软雅黑";
+    color:#d9d9d9;
+    letter-spacing: 1px;
+}
+.top .left .fl a {
+    padding: 0 8px;
+    font: 500 16px/32px "微软雅黑";
+    color: #d9d9d9;
+}
+.top .left .copy{
+    font:500 14px/32px "微软雅黑";
+    line-height: 42px;
+}
+.top .right span {
+    font: 500 20px/12px "微软雅黑";
+    margin-right:20px;
+    color: #d9d9d9;
+}
+.bottom{
+    width: 100%;
+    margin:0 auto;
+    margin-top:20px;
+    text-align: center;
+}
+.bottom  a {
+    flot:left;
+    margin:0 20px;
+}
+.main{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+}
+.main>div{
+    margin-left:-300px;
+    width: 1960px;
+    position: absolute;
+    left:50px;
+    height: 727px;
+    overflow: hidden;
+
+}
+.main>div img{
+    position: absolute;
+    top:0;
+}
+.main .cont{
+    width: 1200px;
+    margin: 80px auto 0;
+    position: relative;
+}
+.main .plogin {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top:50%;
+    right:30px;
+    background:#fff;
+    box-shadow: 0px 2px 2px 1px #333;
+    border:1px solid #ccc;
+    z-index:999;
+    border-radius:2px;
+    padding:20px 20px;
+}
+.main .plogin .tit {
+    padding-bottom:10px;
+}
+.main .plogin .tit .left {
+    font-family: "微软雅黑";
+    font-size: 20px;
+    color: #333;
+}
+.main .plogin .tit .right {
+    vertical-align: bottom;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+.main .plogin .tit a {
+    color: #e7425d;
+}
+.main .plogin .name{
+    width: 100%;
+    height: 58px;
+    margin-bottom:30px;
+
+}
+.main .plogin input {
+    width: 100%;
+    height: 38px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+.main .plogin .btn {
+    width: 100%;
+    height: 40px;
+    background: #e7425d;
+    display: block;
+    text-align: center;
+    line-height: 40;
+    color: #fff;
+    font-size: 22px;
+    margin-top:30px;
+    font-family: "microsoft";
+}
+.main .plogin .rember{
+    width: 100%;
+    margin-top:20px;
+}
+.main .plogin .rember a {
+    font-size: 12px;
+    font-family: "微软雅黑";
+}
+.main .plogin .rember .fl{
+    color:#333;
+}
+.main .plogin .rember .fr {
+    color: #e7425d;
+
+}

@@ -1,0 +1,353 @@
+body{
+    background: #f3f3f7;
+}
+.banner{
+    width: 100%;
+    height: 436px;
+    overflow: hidden;
+    position: relative;
+}
+.banner .second {
+    position: absolute;
+    left: 50%;
+    bottom:20px;
+    margin-left:-100px;
+}
+.banner .second  li{
+    padding:6px;
+    width: 20px;
+    height: 20px;
+    margin-left:20px;
+    box-sizing: border-box;
+    float:left;
+    border-radius: 16px;
+    background:#fff;
+}
+
+.slider {
+    margin: 0 auto;
+    width: 100%;
+}
+.slider-container {
+    height: 436px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.slider-container .slider-wrapper {
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 5000em; /*Fix for prevent display errors*/
+    -webkit-transition: all 800ms ease;
+    -moz-transition: all 800ms ease;
+    -o-transition: all 800ms ease;
+    transition: all 800ms ease;
+}
+.slider-container .slide {
+    float: left;
+    height: 436px;
+    overflow: hidden;
+    position: relative;
+    width: 1349px;
+}
+.slider-container .slide img{
+    width: 100%;
+    height: 100%;
+}
+.slider-nav {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left:35%;
+    bottom:20px;
+}
+.slider-nav li {
+    padding:6px;
+    /*width: 20px;*/
+    /*height: 20px;*/
+    margin-left:20px;
+    box-sizing: border-box;
+    float:left;
+    background-clip: content-box;
+
+    /*border-radius: 16px;*/
+    /*background:#fff;*/
+}
+.slider-nav .bullet {
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-indent: -9000px;
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+}
+.slider-nav .active {
+    background-color: #e7433b
+}
+.notice {
+    width: 100%;
+    height: 40px;
+    background:#fff;
+    box-shadow: 1px 1px 2px #ccc;
+}
+.notice span{
+    float:left;
+    padding-left:60px;
+    padding-right:60px;
+    display: inline-block;
+    font-size:14px;
+    line-height: 40px;
+    background:url("../images/icon_white_news.png") no-repeat left center;
+}
+.notice .sa-2 {
+    float: left;
+    width: 960px;
+    height: 40px;
+    color:red;
+    font: 700 14px/40px "microsoft yahei";
+}
+.notice .sa-2 a{
+    color:red;
+}
+.notice .more {
+    float: right;
+    color: #000;
+    font: 14px/40px "microsoft yahei";
+}
+.touzi {
+    width: 100%;
+    background: #f3f3f7;
+}
+.touzi h2{
+    font-size:24px;
+    margin:30px auto;
+}
+.dydbox{
+    width: 100%;
+    height: 150px;
+    background:#fff;
+    box-sizing: border-box;
+    margin-bottom:6px;
+}
+.dydbox .left{
+    float:left;
+    width: 960px;
+    height: 150px;
+    padding:20px;
+    box-sizing: border-box;
+}
+.dydbox .left .bottom{
+    width: 100%;
+}
+.dydbox .left .top {
+    width: 100%;
+    height: 22px;
+}
+.dydbox .left .top span {
+    float: left;
+    color: #fff;
+    background: #00ace6;
+    height: 20px;
+    font-size:14px;
+    padding:1px 4px;
+    border-radius: 2px;
+}
+.dydbox .left .top a{
+    color:#333;
+    float:left;
+    margin-left:10px;
+}
+.dydbox .left .bottom .fo span{
+    padding-left:6px;
+    font-size:22px;
+    color:#ff667f
+}
+.dydbox .left .bottom .fo{
+    padding-right:30px;
+    height: 62px;
+    line-height: 62px;
+    color:#333;
+    float:left;
+}
+
+.dydbox .right{
+    float:right;
+    width: 195px;
+    height: 150px;
+}
+.dydbox .right a{
+    height: 32px;
+    color:#fff;
+    margin-left:20px;
+    width: 164px;
+    border-raduis:3px;
+    line-height: 32px;
+    text-align:center;
+    display: block;
+    background:#e62e4c;
+
+}
+.press {
+    width: 120px;
+    height: 5px;
+    background:#e5e5e5;
+    margin:50px 0 20px 24px;
+    border-radius: 2px;
+    position: relative;
+
+}
+.press .pressinner {
+    width: 70px;
+    height: 5px;
+    background: #00ace6;
+    border-radius: 2px;
+    float:left;
+
+}
+.press .pc-num {
+    float:right;
+    position: absolute;
+    left:128px;
+    top:-9px;
+    color:#00ace6;
+    font-size:13px;
+}
+.pingu{
+    width: 100%;
+    margin:50px 0 20px;
+}
+.pingu ul li {
+    float:left;
+    width: 295px;
+    height: 90px;
+    text-align: center;
+    border-right: 1px dashed #d9d9d9;
+    font-size:18px;
+    /*line-height: 64px;*/
+    color:#646464;
+}
+.pingu ul li span {
+    width: 100%;
+    display: block;
+    margin:10px 0 10px;
+    /*padding:10px 0 20px;*/
+}
+.pingu ul li  img{
+    width: 80px;
+    height: 80px;
+}
+.new {
+    width: 100%;
+    margin-top:100px;
+
+}
+.new .left {
+    width: 550px;
+    padding: 0 20px 10px;
+    background: #fff;
+    float:left;
+    border-top: 2px solid #e62e4c;
+
+}
+.new .right {
+    width: 550px;
+    padding: 0 20px 10px;
+    background: #fff;
+    float:right;
+    border-top: 2px solid #e62e4c;
+}
+.new h2 {
+    text-align: left;
+    line-height: 60px;
+    font-size:20px;
+}
+.new span {
+    display: inline-block;
+    padding-left: 26px;
+    line-height: 45px;
+    width: 418px;
+
+}
+.new u{
+    text-decoration: none;
+}
+.new  i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+.new  a {
+    color: #000;
+
+}
+.new  a:hover {
+    color:#00ace6;
+}
+.new  i:hover {
+    background:url("../images/newsDot_high.png")
+}
+.company {
+    width: 100%;
+    margin-top:30px;
+    margin-bottom:60px;
+    position: relative;
+}
+.company h3 {
+    border-bottom:1px solid #ccc;
+    font-size:20px;
+    height: 50px;
+    padding-left:20px;
+    line-height: 50px;
+    background:#fff;
+}
+.company .pic{
+    width: 1068px;
+    height: 70px;
+    margin:0 auto;
+    overflow: hidden;
+    /*position: relative;*/
+}
+.company .pic ul{
+    width: 20000px;
+    height: 70px;
+    background:#fff;
+}
+.company .pic ul li{
+    float:left;
+    margin:0 10px 14px;
+}
+.company .pic ul li img{
+    width: 150px;
+    height: 60px;
+
+}
+.company .cot .spec{
+    position: absolute;
+    top:52px;
+    width: 64px;
+    height: 70px;
+    background:#fff;
+    color:#000;
+    line-height: 70px;
+    text-align: center;
+}
+.company .cot .spec2{
+    left:75px;
+}
+.company .cot .spec1{
+    right:75px;
+}
+
+
+
+
+
+
+
+
+

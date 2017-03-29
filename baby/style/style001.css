@@ -1,0 +1,269 @@
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, code, del, dfn, em, img, strong, dd, dl, dt, li, ol, ul, fieldset, form, label, button, input, table, caption, tbody, tfoot, thead, tr, th, td, menu {
+	margin:0;
+	padding:0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+	display:block;
+}
+audio, canvas, video {
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+	empty-cells:show;
+}
+ol, ul, menu {
+	list-style:none;
+}
+img {
+	border:0;
+}
+a:focus {
+	outline:none;
+}
+em, i {
+	font-style: normal;
+}
+
+a {
+	text-decoration:none;
+	cursor:pointer;
+}
+a:hover {
+	color:#2A5E8E;
+}
+.clearfix:after, .central:after, .widget ul:after, .paging:after, .pagenav:after, .base-tit:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+.clearfix, .central, .widget ul, .paging, .pagenav, .base-tit {
+*+height:1%;
+}
+body, button, input, select, textarea, code {
+	font-size:12px;
+	font-family:microsoft yahei;
+	height: 32px;
+	line-height: 32px;
+}
+.inp-t{
+	width:258px;
+}
+
+.theme-gobuy, .theme-signin {
+	font-size: 15px;
+}
+.theme-price {
+	position: relative;
+	bottom: -6px;
+	font-family: microsoft yahei, Arial, Helvetica, sans-serif;
+	margin-right: 20px;
+	font-weight: bold;
+	color: #f60;
+	line-height: 32px;
+	font-size: 24px;
+	display: inline-block;
+}
+.theme-price dfn {
+	font-style: normal;
+	font-size: 18px;
+	margin-right: 2px;
+}
+.theme-desc {
+	padding: 30px;
+}
+.theme-version {
+	padding: 30px;
+}
+
+.theme-popover-mask {
+	z-index: 9998;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity:0.4;
+	filter:alpha(opacity=40);
+	display:none;
+}
+.theme-popover {
+	z-index:9999;
+	position:fixed;
+	top:50%;
+	left:50%;
+	width:600px;
+	height:360px;
+	margin:-180px 0 0 -330px;
+	border-radius:5px;
+	border:solid 2px #666;
+	background-color:#fff;
+	display:none;
+	box-shadow: 0 0 10px #666;
+}
+.theme-poptit {
+	border-bottom:1px solid #ddd;
+	padding:12px;
+	position: relative;
+}
+
+.theme-popbod {
+	padding:60px 15px;
+	color:#444;
+	height: 148px;
+}
+.theme-popbom {
+	padding:15px;
+	background-color:#f6f6f6;
+	border-top:1px solid #ddd;
+	border-radius:0 0 5px 5px;
+	color:#666
+}
+.theme-popbom a {
+	margin-left:8px;
+}
+.theme-poptit{
+	height: 35px;
+	line-height: 35px;
+	background: #fd6469;
+}
+.theme-poptit h3{
+	color:#fff;
+	font-size: 16px;
+}
+
+.theme-poptit .close {
+	float:right;
+	color:#999;
+	padding:5px;
+	margin:-2px -5px -5px;
+	font:bold 14px/14px simsun;
+	text-shadow:0 1px 0 #ddd
+}
+.theme-poptit .close:hover {
+	color:#444;
+}
+.btn.theme-reg {
+	position: absolute;
+	top: 8px;
+	left: 43%;
+	display: none
+}
+.inp-gray, .feed-mail-inp {
+	border:1px solid #ccc;
+	background-color:#fdfdfd;
+	width:220px;
+	height:16px;
+	padding:4px;
+	color:#444;
+	margin-right:6px
+}
+.dform {
+	padding:80px 66px 40px;
+	text-align: center;
+}
+.ipt{
+	width: 258px;
+}
+.dform .ipt_error {
+	background-color:#FFFFCC;
+	border-color:#FFCC66
+}
+.dform-tip {
+	display:none;
+	background-color:#080;
+	color:#fff;
+	line-height:42px;
+	margin-top:10px;
+	font-size: 14px;
+}
+.dform-tip-errer {
+	background-color: #CF301A;
+}
+.dform-tip a {
+	display: inline-block;
+	padding: 0 20px;
+	margin-left:10px;
+	background-color: #FFE924;
+	color: #CF301A;
+}
+.dform-login {
+	padding:0;
+	height: 270px;
+	overflow: hidden;
+}
+.dform-login iframe {
+	height: 470px;
+	margin-top: -180px;
+}
+.theme-signin {
+	margin: -70px -20px -50px 40px;
+	text-align:left;
+	font-size: 14px;
+}
+.theme-signin h4 {
+	color:#999;
+	font-weight:100;
+	margin-bottom: 20px;
+	font-size: 12px;
+}
+.theme-signin li {
+	padding-left: 80px;
+	margin-bottom: 15px;
+}
+.theme-signin li strong {
+	float: left;
+	margin-left: -80px;
+	width: 80px;
+	text-align: right;
+	line-height: 32px;
+}
+.theme-signin .btn {
+
+}
+.theme-signin p {
+	font-size: 12px;
+	color: #999;
+}
+.theme-desc, .theme-version {
+	padding-top: 0
+}
+
+.theme-signin label{
+	vertical-align: top;
+}
+.theme-signin .checkbox{
+	margin-top:2px;
+	margin-right: 10px;
+}
+
+.theme-signin  span a{
+	float: right;
+	margin-right: 114px;
+	color:#fd6469;
+}
+
+.theme-signin  a .btn{
+	display: inline-block;
+	*display: inline;
+	width: 68px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 0;
+	outline: 0;
+	margin-right: 10px;
+	color:#fd6469;
+	cursor: pointer;
+}
+.theme-signin  a:hover .btn,.theme-signin a.active .btn{
+	background: #fd6469;
+	color:#fff;
+}

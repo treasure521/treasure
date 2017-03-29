@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tnxc{ width:1100px; margin:0 auto; padding:0px 0px;}
+.tnxc h2{ text-align:center; font-size:24px; color:#fc676d; margin:10px 0px;font-family:"微软雅黑";display:block;height:25px; line-height:25px;font-weight:normal;}
+.tnxc h1{ text-align:center; font-size:14px; margin:5px 0px;color:#666666; font-family:"微软雅黑";display:block;font-weight:normal; height:20px; line-height:20px;}
+
+.tnpxBox{ width:1100px; margin:0 auto; padding:0px 0px;}
+.anliImg2{ width:250px; height:190px; display:block; float:left;}
+.anliImg2 a{ width:250px; height:190px; display:block; float:left; position:relative;}
+.anliImg2 img{ width:250px; height:190px; display:block; float:left;position: relative; z-index:1;}
+.anliImg2 span{ width:250px; height:34px; margin-top:156px; display:block;left:0;bottom:0;position:relative; z-index:2; background:#000;filter:alpha(opacity=50); /*IE滤镜，透明度50%*/
+-moz-opacity:0.5; /*Firefox私有，透明度50%*/
+opacity:0.5;/*其他，透明度50%*/}
+.anliImg2 em{width:250px;display:block;float:left;height:34px;line-height:35px;color:#fff;font-size:14px;position:relative; z-index:3; font-style:normal;margin-top:-34px;}
+
+
+
+
+/*.photoc li img{ position: relative; z-index:1; width:130px; height:167px;}
+.photoc li a em{ display:none;left:0;height:30px;left:0;bottom:0;position:absolute; z-index:2;width:130px; background:#fff;}
+.photoc li a span{ display:none;left:0;bottom:0; height:30px; line-height:30px; color:#333;text-align:center;text-decoration:none;font-weight:bold;position: absolute; z-index:3;width:130px;}
+
+*/
+
+.pxb{ width:1100px; margin:0 auto; padding:0px 0px;}
+.pxb_one{ width:537px;}
+.pxbTitle{ width:537px; height:44px; background:#dbdbdb;}
+.pxbTitle span{ float:left; height:44px; line-height:44px; padding-left:15px; font-family:"微软雅黑";font-size:24px; color:#fc676d;}
+.pxbTitle a{ float:right; background:#777; display:block; padding:0px 10px; height:44px; line-height:44px; color:#fff; font-size:14px; text-transform:uppercase;font-family:"微软雅黑";}
+
+.pxbTop{ width:537px; float:left; height:150px; margin-top:18px;}
+.pxbImg{ width:200px; float:left;}
+.pxbTxt{ width:320px; float:right; line-height:22px; height:150px; overflow:hidden;}
+
+.pxbUl{ width:537px; float:left; margin-top:14px;}
+.pxbUl ul li{ width:537px; height:32px; line-height:32px; float:left;list-style-position:inside; position:relative;list-style-type: disc;text-indent:1em;clear:both; }
+.pxbUl ul li a{color:#444;font-family:"微软雅黑";font-size:14px;}
+.pxbUl ul li span{ color:#666; font-size:12px; right:5px;position:absolute;}
+
+.pxbUl ul li:hover{width:537px;background:#fc676d;height:32px;line-height:32px;float:left;list-style-position:inside; color:#fff;list-style-type: disc;text-indent:1em;clear:both; }
+
+.pxbUl ul li:hover a,.pxbUl ul li:hover span{ color:#fff; text-decoration:none;}
+
+.lxwm{width:1100px; margin:0 auto; padding:0px 0px;}
+.lxwm h2{ text-align:center; font-size:24px; color:#fc676d; margin:10px 0px;font-family:"微软雅黑";display:block;height:25px; line-height:25px;font-weight:normal;}
+.lxwm h1{ text-align:center; font-size:14px; margin:5px 0px;color:#666666; font-family:"微软雅黑";display:block;font-weight:normal; height:20px; line-height:20px;}
+.lxwmBox{ width:1100px; margin-top:20px;}
+.lxwmTxt{ width:380px;}
+.lxwmTxt b{ width:380px; display:block; float:left; font-size:18px; color:#262626; font-family:"微软雅黑"; font-weight:normal;}
+.lxwmTxt span{ display:block; float:left; padding-left:26px; width:354px; line-height:30px; font-size:14px;font-family:"微软雅黑";color:#6e6d6d; background:url(../images/lxwmIcon.jpg) left 4px no-repeat; margin-top:15px;}
+.lxwmMap{ width:695px;}
+
+
+/*推拿培训职业班 列表页面*/
+
+.tnpxList{ width:1100px; margin:0 auto; padding:0px 0px;}
+
+.tnpxList dl{ width:1100px;height:auto; border-bottom:1px solid #efefef; height:150px;padding:0 0 22px 0; margin:0 0 22px 0;}
+.tnpxList dt{float:left;width:200px; height:150px; text-align:center;}
+.tnpxList img{width:200px; height:150px;}
+.tnpxList dd{float:right; width:860px; color:#5d5d5d;}
+.tnpxList dd h3 a{font-size:14px;color:#fc676d}
+.news_dl_date{color:#898989; padding-bottom:5px;}
+.tnpxList dd p a{color:#fc676d; display:inline-block; padding-top:3px;}
+
+
+

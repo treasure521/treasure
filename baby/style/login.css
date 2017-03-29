@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{padding:0px; margin: 0px; font-size:12px;color:#595757;font-family:"微软雅黑",Arial, Helvetica, sans-serif; background:#f1f1f1;}
+ul{ margin:0 auto; padding:0px 0px;}
+ul li{ list-style:none;}
+img{ border:none;}
+
+a{ color:#595757; text-decoration:none;}
+a:hover{text-decoration:underline; color:#fc676d;}
+
+.clear{ clear:both;}
+
+.clearfix{ display:block;}
+
+.grayBg{ background:#fbfbfb; width:100%;}
+
+.fl{ float:left;}
+.fr{ float:right;}
+
+.margin10,.m10{ margin:0 10px;}
+.margin20,.m20{ margin:0 20px;}
+.marginLeft10,.mL10{ margin-left:10px;}
+.marginRight10,.mR10{ margin-right:10px;}
+.marginLeft20,.mL20{ margin-left:20px !important;}
+.marginRight20,.mR20{ margin-right:20px !important;}
+.marginTop20,.mT20{ margin-top:20px !important;}
+.marginBottom20,.mB20{ margin-bottom:20px !important;}
+.mT5{ margin-top:5px !important;}
+.mT10{ margin-top:10px !important;}
+
+.padding10,.p10{padding:0 10px !important;}
+.padding20,.p20{padding:0 20px !important;}
+.paddingTop10,.pT10{ padding-top:10px !important;}
+.paddingTop20,.pT20{ padding-top:20px !important;}
+.paddingBottom10,.pB10{ padding-bottom:10px !important;}
+.paddingBottom20,.pB20{ padding-bottom:20px !important;}
+.pL10{ padding-left:10px !important;}
+.pL20{ padding-left:20px !important;}
+.mL30{ margin-left:30px !important;}
+
+
+.topBg{ width:100%; background:#fff; height:32px; border-bottom:solid 1px #ebebeb;}
+.top{ width:1004px; margin:0 auto; padding:0px 0px; height:32px; line-height:32px; font-size:14px;}
+.top_login{ color: #666;text-shadow: #fff; float:left;}
+.top_login a {color: #fc676d;}
+.topR{ float:right;}
+.topR a{color:#fc676d;}
+
+.head{ width:1004px; margin:0 auto; padding:0px 0px; height:110px;}
+.head .logo{ width:430px; height:60px; float:left; margin-top:25px;}
+.head .tel{ width:150px; float:right; background:url(../images/tel.jpg) left center no-repeat; padding-left:50px; height:50px; margin-top:40px;}
+.head .tel label{ width:150px; display:block; float:left; color:#999999;}
+.head .tel span{ display:block; float:left; color:#f4535c; font-size:24px;}
+
+
+.main-section{ width:1000px; margin:0 auto; padding:0px 0px;}
+.shadow-box{margin: 0 auto;width: 1000px;-moz-box-shadow: 0 0 5px #CCC;-webkit-box-shadow: 0 0 5px #CCC;box-shadow: 0 0 5px #CCC;}
+.s-topbg{background:url(../images/s-topbg.png) no-repeat;height: 5px;width: 100%;line-height: 0;overflow: hidden;font-size: 0;}
+
+.s-content{width: 100%;height: auto;background-color: #FFF;}
+
+.reg-content{position: relative;padding: 25px 30px; min-height:420px;}
+.mode-tab{height: 35px;line-height: 35px;font-size: 16px;overflow: hidden;color: #555;border-bottom: 2px solid #f15a60;margin-top: 20px;}
+.mode-tab span{height: 35px; display:block;background-color: #fc676d;color: #FFF;border: 1px solid #f15a60;border-bottom: 2px #f15a60;border-top-left-radius: 3px;border-top-right-radius: 3px;padding: 0 20px;margin-right: 20px;cursor: pointer;width:70px;}
+
+.loginBox{ width:100%;}
+.loginBoxL{width: 290px;height:280px;margin-top:45px; float:left;padding: 17px 30px 0;border: 1px solid rgb(220, 220, 220);}
+.loginBoxLT{ width:290px; float:left;}
+.loginBoxL .user{font-size: 20px;color:#fc676d;}
+.loginBoxL .reg{font-size: 14px;color: rgb(153, 153, 153);}
+
+.item{ width:290px; height:32px; margin-top:15px; margin-bottom:15px; float:left;}
+.item .text1{ padding-left:40px; width:250px; display:block; color:#a9a9a9;float:left; border:none; height:32px;background:url(../images/textBg.jpg) no-repeat;}
+
+.item .text2{ padding-left:40px; width:250px; display:block; color:#a9a9a9;float:left; border:none; height:32px;background:url(../images/textBg.jpg) 0px -58px no-repeat;}
+
+.login-status{ width:290px; float:left; margin:10px 0px;}
+.login-status a{ color:#fc676d;}
+
+#submitBtn {height: 45px;width: 290px;margin-top: 15px;line-height: 1;background:#fc676d;font-size: 20px;font-family: '微软雅黑';}
+.btn {display: inline-block;padding: .5em 1em;border: 0 none;border: 1px solid rgba(0, 0, 0, 0.25);border-radius: 0.3em;background-image: none;box-shadow: 0 1px rgba(0, 0, 0, 0.15), inset 0 1px rgba(255, 255, 255, 0.15);color: rgb(255, 255, 255);text-align: center;text-decoration: none;text-shadow: 1px 1px rgba(0, 0, 0, 0.1);font-size: 100%;font-family: inherit;font-weight: inherit;white-space: nowrap;-webkit-user-select: none;-moz-user-select: none;user-select: none;overflow: visible;cursor: pointer;}
+
+.loginBoxR{ width:520px; height:350px; float:right; margin-top:20px; margin-bottom:30px;}
+
+.foot{ width:1000px; clear:both; margin:0 auto; padding:0px 0px; text-align:center; line-height:25px;}
+
+
+.regBox{width:100%;}
+.regBox .regBoxL{width:650px; float:left; }
+.regBox .item {width: 650px;margin-bottom: 15px;position: relative;}
+.regBox .item .item-title{width: 100px;height: 28px;line-height: 14px;float: left;padding: 8px 15px 0 0;text-align: right;color: #555;}
+.regBox .item .item-content{height:40px;}
+
+.regBox .item .item-content .field {width:280px;height:20px;line-height:20px;background-color:#fef5f5;font-size:14px;border:1px solid #fcdbdd;border-radius:3px;padding:7px 10px;color:#555;}
+.replace-holder {position: absolute;font-size: 12px;top: 8px;left: 125px;color: #a3a2a2;cursor: text;}
+
+a.lightgray30:hover {background-position: 0 -60px; text-decoration:none;}
+a.lightgray30:hover .lightgray30_text {background-position: right -90px;}
+.get-message {position: absolute;top: 3px;left: 425px;}
+a.lightgray30 {padding-left: 4px;background-position: 0 0;}
+a.lightgray30, a.lightgray30 .lightgray30_text {display: inline-block;height: 30px;line-height: 28px;line-height: 30px\9;background: url(../images/sprite-lightgraybtn30.png) repeat 0 0 transparent;cursor: pointer;}
+
+a.lightgray30 .lightgray30_text {display: inline-block;height: 30px;line-height: 28px;line-height: 30px\9;background:url(../images/sprite-lightgraybtn30.png) repeat 0 0 transparent;cursor: pointer;}
+a.lightgray30 .lightgray30_text{display: block;background-position:right -30px;padding:0 10px 0 6px;color:#555;font-size:12px;text-align:center;cursor: pointer;text-shadow:0 1px 1px #F9F9F9;}
+
+.message-tip {display: none;position: absolute;top: 40px;left: 115px;}
+
+.reg-btn{padding-left: 115px;}
+.register-btn{ display: inline-block; width:170px;padding: .5em 1em;border: 0 none;border: 1px solid rgba(0, 0, 0, 0.25);border-radius: 0.3em;background-image: none;box-shadow: 0 1px rgba(0, 0, 0, 0.15), inset 0 1px rgba(255, 255, 255, 0.15);color: rgb(255, 255, 255);text-align: center;text-decoration: none;text-shadow: 1px 1px rgba(0, 0, 0, 0.1);font-size: 100%;font-family: inherit;font-weight: inherit;white-space: nowrap;-webkit-user-select: none;-moz-user-select: none;user-select: none;overflow: visible;cursor: pointer;}
+
+.reg-btn #submitBtn{ width:170px; float:left;}
+
+.domain-has-account {width: 185px;padding: 8px 0 0 20px;float: left; height:35px; margin-top:16px;line-height:35px;}
+.show-login{color:#fc676d;}
+
+.regBoxR{ position:absolute; right:0px;background:url(../images/regImg.jpg) top center no-repeat; width:371px; height:368px; float:right;}
+
+.regBoxR a.loginBtn{display: inline-block; width:170px;padding: .5em 1em;border: 0 none;border: 1px solid rgba(0, 0, 0, 0.25);border-radius: 0.3em;background-image: none;box-shadow: 0 1px rgba(0, 0, 0, 0.15), inset 0 1px rgba(255, 255, 255, 0.15);color: rgb(255, 255, 255);text-align: center;text-decoration: none;text-shadow: 1px 1px rgba(0, 0, 0, 0.1);font-size: 100%;font-family: inherit;font-weight: inherit;white-space: nowrap;-webkit-user-select: none;-moz-user-select: none;user-select: none;overflow: visible;cursor: pointer;}
+.regBoxR #submitBtn{ width:100px; font-size:12px; height:20px; line-height:20px;}
+.regBoxR a.loginBtn{ margin-top:25px; margin-left:100px;}
+
+.ewm{ color:#000;width:200px; float:left; margin-left:65px; margin-top:20px;}
+.ewm img{ width:110px; height:110px; margin-left:45px;}
+.ewm span{ width:200px; display:block; float:left; text-align:center; height:25px; line-height:25px;}
