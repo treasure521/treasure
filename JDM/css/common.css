@@ -1,0 +1,113 @@
+/*
+* @Author: Administrator
+* @Date:   2017-02-23 15:59:41
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-02-26 16:40:10
+*/
+
+/* 这个css主要做的事情是将这个项目的一些公共元素提取出来，为了以后的复用 */
+
+
+/* 精灵图缩放公共类 */
+.jd-icons:before{
+	content: '';
+	background:  url(../image/icons/jd-sprites.png)  no-repeat;
+	/* 这里不能直接写50% 因为这个百分比参照的是当前元素的宽高 */
+	-webkit-background-size: 200px 200px;
+	background-size: 200px 200px;
+}
+/* 水平垂直公共类 */
+.jd-center,.jdw-center:before {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform :translate(-50%,-50%);
+	transform :translate(-50%,-50%);
+}
+/* 垂直居中公共类 */
+.jd-center-y,.jdw-center-y:before {
+	position: absolute;
+	top: 50%;
+	-webkit-transform :translateY(-50%);
+	transform :translateY(-50%);
+}
+/* 水平居中公共类 */
+.jd-center-x,.jdw-center-x:before {
+	position: absolute;
+	left: 50%;
+	-webkit-transform :translateX(-50%);
+	transform :translateX(-50%);
+}
+/* 底部边框公共类 */
+.line-bottom {
+	position: relative;
+}
+.line-bottom:before {
+	content: '';
+	width: 100%;
+	height: 0;
+	border-bottom: 1px solid #ccc;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+/* 右边公共边框 */
+.right-line {
+	position: relative;
+}
+.right-line:before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 100%;
+	right: 0;
+	top: 0;
+	border-right: 1px solid #ccc;
+}
+
+/* 公共头部区域 */
+.common-header {
+	height: 44px;
+	border-bottom: 1px solid #ccc;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background:linear-gradient(to bottom,#fff,#e0e0e0);
+}
+.common-header .left {
+	width: 40px;
+	height: 44px;
+	position: relative;
+}
+.common-header .left:before {
+	width: 13px;
+    height: 20px;
+    background-position: -24px 0;
+}
+.common-header .right {
+	width: 42px;
+	height: 44px;
+	position: relative;
+}
+.common-header .right:before {
+	width: 18px;
+    height: 19px;
+    background-position: -61px 0;
+}
+.common-header .center {
+	height: 44px;
+	margin: 0 42px 0 40px;
+	padding-top: 7px;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.common-header .center input[type="search"] {
+	width: 100%;
+	height: 30px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	text-indent: 5px;
+}
+.mt45 {
+	margin-top: 45px;
+}

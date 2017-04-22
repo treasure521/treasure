@@ -1,0 +1,59 @@
+/*
+* @Author: Administrator
+* @Date:   2017-02-26 11:00:31
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-02-26 16:40:33
+*/
+
+/* 主体区域 */
+html,body,.cate-main{
+	height: 100%;
+}
+.cate-main {
+	padding-top: 45px;
+	-webkit-box-sizing:border-box;
+	box-sizing :border-box;
+}
+.cate-main .left {
+	width: 74px;
+	height: 100%;
+	border-right: 1px solid #ccc;
+	overflow: hidden;
+}
+.cate-main .right {
+	height: 100%;
+	margin-left: 75px;
+	padding-left:10px;
+}
+.cate-main .left .scroll li {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+.img-wrap {
+	padding-top: 10px;
+}
+.cate-main .right {
+	overflow: hidden;
+}
+.cate-main .right .zc-tit {
+	line-height: 25px;
+	margin-top: 10px;
+	font-size: 16px;
+}
+.cate-main .right .zc-info {
+	overflow: hidden;
+}
+.cate-main .right .zc-info li {
+	background-color: #fff;
+}
+.cate-main .right .zc-info a {
+	display: block;
+	padding:0 10px;
+}
+.cate-main .right .zc-info p {
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+}

@@ -1,0 +1,40 @@
+/*
+* @Author: Administrator
+* @Date:   2017-02-26 16:29:21
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-02-26 16:55:34
+*/
+.car-header {
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+}
+
+/* 安全提示区域 */
+.safe-tip {
+	height: 33px;
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	line-height: 33px;
+	position: relative;
+}
+.safe-tip .safe-txt {
+	/* 强制文字不换行 */
+	white-space: nowrap;
+	width: 225px;
+	margin:0 auto;
+}
+.safe-tip .safe-txt:before {
+	content: '';
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	background:  url(../image/icons/safe_icon.png) 0 0 no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	vertical-align: middle;
+	margin-right: 5px;
+	position: relative;
+	top: -2px;
+}

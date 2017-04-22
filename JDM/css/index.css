@@ -1,0 +1,260 @@
+/*
+* @Author: Administrator
+* @Date:   2017-02-23 14:46:11
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-02-26 10:55:48
+*/
+html {
+	min-width: 320px;
+	max-width: 640px;
+	margin:0 auto;
+}
+
+/* 头部样式 */
+.jd-header {
+	height: 40px;
+	position: fixed;
+	/* 一旦定位了，就脱标了，就不会继承宽度，所以需要加上width：100% */
+	width: 100%;
+	top: 0;
+	z-index: 999;
+	min-width: 320px;
+	max-width: 640px;
+}
+.jd-header > .left {
+	width: 75px;
+	height: 40px;
+	position: relative;
+}
+.jd-header > .left:before {
+	width: 56px;
+	height: 20px;
+	background-position: 0 -110px;
+	/* 
+		在这里里面提取出来了很多的一些公共样式 
+		背景精灵图缩放
+		这个200 是用设计图的宽度/320
+		background-size: 200px 200px;
+
+		还提取了一个水平垂直居中公共类
+		position:absolute;
+		left: 50%;
+		top:50%;
+		transform :translate(-50%,-50%);
+	*/
+}
+.jd-header > .right {
+	width: 50px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-size: 14px;
+}
+.jd-header > .center {
+	height: 40px;
+	padding-top: 5px;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	margin: 0 50px 0 75px ;
+	position: relative;
+}
+.jd-header > .center:before {
+	width: 19px;
+	height: 19px;
+	left: 5px;
+	background-position: -60px -110px;
+}
+.jd-header > .center > input[type="search"]{
+	height: 30px;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 15px;
+	text-indent: 25px;
+}
+	
+/* 轮播图区域 */
+.carousel {
+	position: relative;
+	overflow: hidden;
+}
+.carousel ul {
+	position: relative;
+	min-height: 143px;
+}
+.carousel ul li {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	/* 为什么不用left去移动，因为left一旦移动就是移动的最开始的起始点 */
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
+}
+.carousel ol {
+	position: absolute;
+	width: 100%;
+	height: 10px;
+	bottom: 10px;
+	left: 0;
+	text-align: center;
+	font-size: 0;
+}
+.carousel ol li {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	border:1px solid #fff;
+	display: inline-block;
+	margin: 0 2px;
+}
+.carousel ol li.active {
+	background-color: #fff;
+}
+/* 主导航区域 */
+.jd-nav {
+	padding: 10px 0;
+	background-color: #F3F3F3;
+}
+.jd-nav li a{
+	display: block;
+	padding:0 10px;
+}
+.jd-nav li p {
+	text-align: center;
+	line-height: 32px;
+	font-size: 14px;
+}
+
+/* 京东快报 */
+.jd-news {
+	background-color: #F3F3F3;
+	padding:7px 10px;
+}
+.jd-new-info {
+	height: 30px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.jd-new-info .left {
+	width: 82px;
+	height: 30px;
+	position: relative;
+}
+.jd-new-info .right {
+	width: 40px;
+	height: 30px;
+	line-height: 30px;
+}
+.jd-new-info .center {
+	height: 30px;
+	margin: 0 40px 0 82px;
+	position: relative;
+	overflow: hidden;
+}
+.jd-new-info .center .scroll-wrap {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.jd-new-info .center .scroll-wrap li {
+	height: 30px;
+	line-height: 30px;
+	text-indent: 10px;
+}
+
+/* 京东秒杀 */
+.jd-sk {
+	background-color: #fff;
+}
+.jd-sk-t {
+	height: 35px;
+}
+.jd-sk-t .jd-txt {
+	color: #ca1327;
+	letter-spacing: 5px;
+	line-height: 35px;
+	text-indent: 35px;
+	position: relative;
+}
+.jd-sk-t .jd-txt:before {
+	width: 17px;
+	height: 22px;
+	background-position: -84px -109px;
+	left: 10px;
+}
+.jd-sk-t .more {
+	line-height: 35px;
+	margin-right: 10px;
+}
+/* 给父元素添加font-size:0可以清除空文本节点的间距 */
+.jd-time-w {
+	font-size: 0;
+	margin-top: 5px;
+}
+.jd-time-w span {
+	display: inline-block;
+	width: 10px;
+	height: 25px;
+	background-color: #000;
+	line-height: 25px;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+}
+.jd-time-w span:nth-child(3n) {
+	background-color: transparent;
+	color: #000;
+}
+.jd-time-w span:nth-child(3n+1){
+	border-radius: 5px 0 0 5px;
+}
+.jd-time-w span:nth-child(3n+2){
+	border-radius: 0 5px 5px 0;
+}
+.jd-sk-b {
+	overflow: scroll;
+	/* 解决IOS默认滑动很卡的情况 */
+	-webkit-overflow-scrolling : touch; 
+}
+.jd-sk-b .item a {
+	display: block;
+	width: 91px;
+	height: 70px;
+	border-right: 1px solid #ccc;
+}
+.jd-sk-b .scroll-wrap {
+	width: 1000px;
+}
+.jd-sk-b .item a img{
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+}
+.jd-sk-b .new-price {
+	color: #F35353;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+.jd-sk-b .old-price {
+	text-align: center;
+	text-decoration: line-through;
+}
+
+/* 京东主体模块 */
+.jd-product {
+	background-color: #fff;
+}
+.jd-product  .left,.jd-product .right {
+	padding:10px;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.jd-product .pro-txt {
+	width: 55%;
+}
+.jd-product .pro-img {
+	width: 45%;
+}
