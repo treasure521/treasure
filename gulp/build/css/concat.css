@@ -1,0 +1,18 @@
+body {
+  background: #00fff0;
+}
+div {
+  height: 300px;
+  background: #00fff0;
+  font-size: 30px;
+  text-align: center;
+  color: red;
+}
+
+p {
+  height: 200px;
+  background: #fff000;
+  text-align: center;
+  font-size: 23px;
+  color: pink;
+}
